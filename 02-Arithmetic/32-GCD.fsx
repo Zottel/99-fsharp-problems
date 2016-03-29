@@ -1,4 +1,4 @@
-module Arihmetic.GCD
+module Arithmetic.GCD
  
 let rec gcd m n =
     if n = 0 then abs m
