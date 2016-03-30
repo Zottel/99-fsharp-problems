@@ -1,5 +1,6 @@
 module Arithmetic.IsPrime
 
+let sqrn n = sqrt (float n) |> int
+
 let isPrime n = 
-    let sqrn = sqrt (float n) |> int
-    not (List.exists (fun elem -> n % elem = 0) [2 .. sqrn]) 
+    not (List.exists (fun elem -> n % elem = 0) [2 .. sqrn n]) 
