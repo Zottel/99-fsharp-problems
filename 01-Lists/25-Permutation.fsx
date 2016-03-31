@@ -1,6 +1,6 @@
 module Lists.Permutation
 
-#load "./23-ExtractRandom.fsx"
+#load "../01-Lists/23-ExtractRandom.fsx"
 open Lists.ExtractRandom
 
 let random = System.Random()

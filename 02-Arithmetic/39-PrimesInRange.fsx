@@ -1,6 +1,6 @@
 module Arithmetic.PrimesInRange
 
-#load "./31-IsPrime.fsx"
+#load "../02-Arithmetic/31-IsPrime.fsx"
 open Arithmetic.IsPrime
 
 let primesInRange lower upper = 

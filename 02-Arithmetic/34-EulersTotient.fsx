@@ -1,6 +1,6 @@
 module Arithmetic.EulersTotient
 
-#load "./33-Coprime.fsx"
+#load "../02-Arithmetic/33-Coprime.fsx"
 open Arithmetic.Coprime
 
 let totient m = 

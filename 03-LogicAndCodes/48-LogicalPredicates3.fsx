@@ -1,6 +1,6 @@
 module LogicAndCodes.LogicalPredicates3
 
-#load "./47-LogicalPredicates2.fsx"
+#load "../03-LogicAndCodes/47-LogicalPredicates2.fsx"
 open LogicAndCodes.LogicalPredicates2
 
 let tablen n func =

@@ -1,6 +1,6 @@
 module Arithmetic.EulersTotientImproved
 
-#load "./36-PrimeFactorsMultiplicity.fsx"
+#load "../02-Arithmetic/36-PrimeFactorsMultiplicity.fsx"
 open Arithmetic.PrimeFactorsMultiplicity
 
 let totientImproved m = 

@@ -1,6 +1,6 @@
 module LogicAndCodes.LogicalPredicates2
 
-#load "./46-LogicalPredicates.fsx"
+#load "../03-LogicAndCodes/46-LogicalPredicates.fsx"
 open LogicAndCodes.LogicalPredicates
 
 let (!) a = not' a

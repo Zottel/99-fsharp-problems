@@ -1,6 +1,6 @@
 module Arithmetic.GoldbachList
 
-#load "./40-GoldbachsConjecture.fsx"
+#load "../02-Arithmetic/40-GoldbachsConjecture.fsx"
 open Arithmetic.GoldbachsConjecture
 
 let goldbachList front back =

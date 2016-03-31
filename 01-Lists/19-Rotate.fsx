@@ -1,6 +1,6 @@
 module Lists.Rotate
 
-#load "./17-split.fsx"
+#load "../01-Lists/17-split.fsx"
 open Lists.Split
 
 let rotate by list = 

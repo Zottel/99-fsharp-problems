@@ -1,7 +1,7 @@
 module Lists.Lotto
 
-#load "./22-IntegersInRange.fsx"
-#load "./23-ExtractRandom.fsx"
+#load "../01-Lists/22-IntegersInRange.fsx"
+#load "../01-Lists/23-ExtractRandom.fsx"
 
 open Lists.IntegersInRange
 open Lists.ExtractRandom

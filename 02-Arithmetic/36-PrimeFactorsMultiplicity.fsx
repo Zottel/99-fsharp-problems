@@ -1,6 +1,6 @@
 module Arithmetic.PrimeFactorsMultiplicity
 
-#load "./35-PrimeFactors.fsx"
+#load "../02-Arithmetic/35-PrimeFactors.fsx"
 open Arithmetic.PrimeFactors
 
 let primeFactorsMultiplicity m = 

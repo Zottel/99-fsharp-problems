@@ -1,6 +1,6 @@
 module Arithmetic.GoldbachsConjecture
 
-#load "./39-PrimesInRange.fsx"
+#load "../02-Arithmetic/39-PrimesInRange.fsx"
 open Arithmetic.PrimesInRange
 
 let goldbach n = 

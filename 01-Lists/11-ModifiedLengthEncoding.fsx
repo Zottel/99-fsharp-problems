@@ -1,6 +1,6 @@
 module Lists.ModifiedLengthEncoding
 
-#load "./10-LengthEncoding.fsx"
+#load "../01-Lists/10-LengthEncoding.fsx"
 open Lists.LengthEncoding
 
 type 'a Encoding = Multiple of int * 'a | Single of 'a

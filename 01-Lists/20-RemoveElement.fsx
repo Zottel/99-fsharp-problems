@@ -1,6 +1,6 @@
 module Lists.RemoveElement
 
-#load "./17-Split.fsx"
+#load "../01-Lists/17-Split.fsx"
 open Lists.Split
 
 let removeAt index list = 

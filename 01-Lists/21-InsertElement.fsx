@@ -1,6 +1,6 @@
 module Lists.InsertElement
 
-#load "./17-Split.fsx"
+#load "../01-Lists/17-Split.fsx"
 open Lists.Split
 
 let insertAt item index list = 

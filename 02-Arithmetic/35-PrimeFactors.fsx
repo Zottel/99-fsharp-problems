@@ -1,6 +1,6 @@
 module Arithmetic.PrimeFactors
 
-#load "./31-IsPrime.fsx"
+#load "../02-Arithmetic/31-IsPrime.fsx"
 open Arithmetic.IsPrime
 
 let primeFactors m = 

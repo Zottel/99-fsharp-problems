@@ -1,6 +1,6 @@
 module Lists.ExtractRandom
 
-#load "./20-RemoveElement.fsx"
+#load "../01-Lists/20-RemoveElement.fsx"
 open Lists.RemoveElement
 
 let random = System.Random()

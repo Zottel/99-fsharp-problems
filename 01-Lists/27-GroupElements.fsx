@@ -1,6 +1,6 @@
 module Lists.GroupElements
 
-#load "26-Combinations.fsx"
+#load "../01-Lists/26-Combinations.fsx"
 open Lists.Combinations
 
 let listDiff list1 list2 = 
