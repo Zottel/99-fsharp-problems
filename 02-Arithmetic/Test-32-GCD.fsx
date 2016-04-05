@@ -1,5 +1,5 @@
 #load "./32-GCD.fsx"
-open Arihmetic.GCD
+open Arithmetic.GCD
 
 let m = 36
 let n = 63
