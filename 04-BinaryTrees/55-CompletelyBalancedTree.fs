@@ -1,6 +1,5 @@
 module BinaryTrees.CompletelyBalancedTree
 
-#load "../04-BinaryTrees/00-BinaryTree.fsx"
 open BinaryTrees.BinaryTree
 
 let rec generateBalanced nodes value =
@@ -15,5 +14,10 @@ let rec generateBalanced nodes value =
         [for l in generateBalanced ((n - 1) / 2) value do
             for g in generateBalanced ((n - 1) / 2 + 1) value do
                 yield [Branch(value, l, g); Branch(value, g, l)]]
-        |> List.concat 
+        |> List.concat
     | _ -> [Empty]
+
+let test () =
+    let nodes = 4
+
+    printfn "Completely balanced trees with %i nodes: \n%A" nodes (generateBalanced 4 'x')

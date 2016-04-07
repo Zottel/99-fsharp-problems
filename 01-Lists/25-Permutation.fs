@@ -1,8 +1,11 @@
 module Lists.Permutation
 
-#load "../01-Lists/23-ExtractRandom.fsx"
 open Lists.ExtractRandom
 
-let random = System.Random()
-
 let rec randomPermute list = randomSelect (List.length list) list
+
+let test () =
+    let list = ['a'; 'b'; 'c'; 'd'; 'e'; 'f']
+
+    printfn "Input list: %A" list
+    printfn "Random permutation: %A" (randomPermute list)

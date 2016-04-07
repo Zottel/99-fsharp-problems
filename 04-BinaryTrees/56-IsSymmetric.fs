@@ -1,6 +1,5 @@
 module BinaryTrees.IsSymmetric
 
-#load "../04-BinaryTrees/00-BinaryTree.fsx"
 open BinaryTrees.BinaryTree
 
 let rec isMirror tree1 tree2 =
@@ -10,8 +9,14 @@ let rec isMirror tree1 tree2 =
     | Empty, Branch _ -> false
     | Branch(_, left1, right1), Branch(_, left2, right2) ->
         isMirror left1 left2 && isMirror right1 right2
-        
-let isSymmetric tree = 
-    match tree with 
+
+let isSymmetric tree =
+    match tree with
     | Empty -> true
     | Branch(_, left, right) -> isMirror left right
+
+let test () =
+    let tree = Branch('a', Branch('b', Empty, Empty), Branch('c', Empty, Empty))
+
+    printfn "The tree:\n%A" tree
+    printfn "Is symmetric: %b" (isSymmetric tree)
