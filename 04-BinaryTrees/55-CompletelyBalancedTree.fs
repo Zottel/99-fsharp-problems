@@ -20,4 +20,4 @@ let rec generateBalanced nodes value =
 let test () =
     let nodes = 4
 
-    printfn "Completely balanced trees with %i nodes: \n%A" nodes (generateBalanced 4 'x')
+    printfn "Completely balanced trees with %i nodes: \n%A" nodes (generateBalanced nodes 'x')
