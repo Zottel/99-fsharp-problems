@@ -49,7 +49,8 @@ let problems = [
     (54, "Omitted. The tree representation only allows well-formed trees.", ignore);
     (55, "(**) Construct completely balanced binary trees.", BinaryTrees.CompletelyBalancedTree.test);
     (56, "(**) Symmetric binary trees.", BinaryTrees.IsSymmetric.test);
-    (57, "(**) Binary search trees (dictionaries).", BinaryTrees.BinarySearchTree.test)
+    (57, "(**) Binary search trees (dictionaries).", BinaryTrees.BinarySearchTree.test);
+    (58, "(**) Generate-and-test paradigm.", BinaryTrees.GenerateAndTest.test);
 ]
 
 /// Display info on obtaining help
