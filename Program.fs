@@ -52,6 +52,8 @@ let problems = [
     (57, "(**) Binary search trees (dictionaries).", BinaryTrees.BinarySearchTree.test);
     (58, "(**) Generate-and-test paradigm.", BinaryTrees.GenerateAndTest.test);
     (59, "(**) Construct height-balanced binary trees.", BinaryTrees.HeightBalanced.test);
+    (60, "(**) Construct height-balanced binary trees with a given number of nodes.", BinaryTrees.HeightBalancedWithGivenNodes.test);
+
 ]
 
 /// Display info on obtaining help
