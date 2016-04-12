@@ -53,6 +53,7 @@ let problems = [
     (58, "(**) Generate-and-test paradigm.", BinaryTrees.GenerateAndTest.test);
     (59, "(**) Construct height-balanced binary trees.", BinaryTrees.HeightBalanced.test);
     (60, "(**) Construct height-balanced binary trees with a given number of nodes.", BinaryTrees.HeightBalancedWithGivenNodes.test);
+    (61, "(*) Count the leaves of a binary tree.", BinaryTrees.CountLeaves.test)
 
 ]
 
