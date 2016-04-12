@@ -54,6 +54,7 @@ let problems = [
     ("59", "(**) Construct height-balanced binary trees.", BinaryTrees.HeightBalanced.test);
     ("60", "(**) Construct height-balanced binary trees with a given number of nodes.", BinaryTrees.HeightBalancedWithGivenNodes.test);
     ("61", "(*) Count the leaves of a binary tree.", BinaryTrees.CountLeaves.test);
+    ("61A", "(*) Collect the leaves of a binary tree in a list.", BinaryTrees.CollectLeaves.test)
 
 ]
 
