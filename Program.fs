@@ -58,6 +58,7 @@ let problems = [
     ("62", "(*) Collect the internal nodes of a binary tree in a list.", BinaryTrees.CollectInternal.test);
     ("62B", "(*) Collect the nodes at a given level in a list.", BinaryTrees.NodesAtLevel.test);
     ("63", "(**) Construct a complete binary tree.", BinaryTrees.CompleteTree.test);
+    ("64", "(**) Layout a binary tree (1).", BinaryTrees.LayoutTree1.test);
 ]
 
 /// Display info on obtaining help
