@@ -60,6 +60,7 @@ let problems = [
     ("63", "(**) Construct a complete binary tree.", BinaryTrees.CompleteTree.test);
     ("64", "(**) Layout a binary tree (1).", BinaryTrees.LayoutTree1.test);
     ("65", "(**) Layout a binary tree (2).", BinaryTrees.LayoutTree2.test);
+    ("66", "(***) Layout a binary tree (3).", BinaryTrees.LayoutTree3.test);
 ]
 
 /// Display info on obtaining help
