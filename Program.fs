@@ -61,6 +61,7 @@ let problems = [
     ("64", "(**) Layout a binary tree (1).", BinaryTrees.LayoutTree1.test);
     ("65", "(**) Layout a binary tree (2).", BinaryTrees.LayoutTree2.test);
     ("66", "(***) Layout a binary tree (3).", BinaryTrees.LayoutTree3.test);
+    ("67", "(**) A string representation of binary trees.", BinaryTrees.StringRepresentation.test);
 ]
 
 /// Display info on obtaining help
