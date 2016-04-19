@@ -64,6 +64,8 @@ let problems = [
     ("67", "(**) A string representation of binary trees.", BinaryTrees.StringRepresentation.test);
     ("68", "(**) Preorder and inorder sequences of binary trees.", BinaryTrees.PreorderInorder.test);
     ("69", "(**) Dotstring representation of binary trees.", BinaryTrees.DotstringRepresentation.test);
+    ("70B", "Omitted. The tree representation only allows well-formed trees.", ignore);
+    ("70C", "(*) Count the nodes of a multiway tree.", MultiwayTrees.CountNodes.test);
 ]
 
 /// Display info on obtaining help
