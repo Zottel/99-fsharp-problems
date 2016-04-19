@@ -68,6 +68,7 @@ let problems = [
     ("70C", "(*) Count the nodes of a multiway tree.", MultiwayTrees.CountNodes.test);
     ("70", "(**) Tree construction from a node string.", MultiwayTrees.NodeString.test);
     ("71", "(*) Determine the internal path length of a tree.", MultiwayTrees.InternalPathLength.test);
+    ("72", "(*) Construct the postorder sequence of the tree nodes.", MultiwayTrees.PostorderSequence.test);
 ]
 
 /// Display info on obtaining help
