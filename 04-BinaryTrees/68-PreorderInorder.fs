@@ -25,13 +25,9 @@ let rec preInTree preorder inorder =
     match preorder with
     | [] -> Empty
     | head::tailPre ->
-        match split head inorder with
-        | [], [] -> Branch(head, Empty, Empty)
-        | leftIn, [] -> Branch(head, preInTree (tailPre |> take (List.length leftIn)) leftIn, Empty)
-        | [], rightIn -> Branch(head, Empty, preInTree tailPre rightIn)
-        | leftIn, rightIn -> Branch(head,
-                                preInTree (tailPre |> take (List.length leftIn)) leftIn,
-                                preInTree (tailPre |> drop (List.length leftIn)) rightIn)
+        let leftIn, rightIn = split head inorder
+        Branch(head, preInTree (tailPre |> take (List.length leftIn)) leftIn,
+                    preInTree (tailPre |> drop (List.length leftIn)) rightIn)
 
 let test () =
     let tree = Branch('a', Branch('b', Branch('d', Empty, Empty), Branch('e', Empty, Empty)), Branch('c', Empty, Branch('f', Branch('g', Empty, Empty), Empty)))
