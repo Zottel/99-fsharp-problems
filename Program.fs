@@ -69,6 +69,7 @@ let problems = [
     ("70", "(**) Tree construction from a node string.", MultiwayTrees.NodeString.test);
     ("71", "(*) Determine the internal path length of a tree.", MultiwayTrees.InternalPathLength.test);
     ("72", "(*) Construct the postorder sequence of the tree nodes.", MultiwayTrees.PostorderSequence.test);
+    ("73", "(**) Lisp-like tree representation.", MultiwayTrees.LispNotation.test);
 ]
 
 /// Display info on obtaining help
@@ -108,6 +109,7 @@ let problem = function
     | i ->
         let number,title,func = List.find (fun (number,_,_) -> number = i) problems
         printProblem number title
+        printfn ""
         func ()
 
 /// Main program loop
