@@ -66,6 +66,7 @@ let problems = [
     ("69", "(**) Dotstring representation of binary trees.", BinaryTrees.DotstringRepresentation.test);
     ("70B", "Omitted. The tree representation only allows well-formed trees.", ignore);
     ("70C", "(*) Count the nodes of a multiway tree.", MultiwayTrees.CountNodes.test);
+    ("70", "(**) Tree construction from a node string.", MultiwayTrees.NodeString.test);
 ]
 
 /// Display info on obtaining help
