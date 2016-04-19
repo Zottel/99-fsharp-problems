@@ -63,6 +63,7 @@ let problems = [
     ("66", "(***) Layout a binary tree (3).", BinaryTrees.LayoutTree3.test);
     ("67", "(**) A string representation of binary trees.", BinaryTrees.StringRepresentation.test);
     ("68", "(**) Preorder and inorder sequences of binary trees.", BinaryTrees.PreorderInorder.test);
+    ("69", "(**) Dotstring representation of binary trees.", BinaryTrees.DotstringRepresentation.test);
 ]
 
 /// Display info on obtaining help
