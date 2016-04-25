@@ -70,6 +70,7 @@ let problems = [
     ("71", "(*) Determine the internal path length of a tree.", MultiwayTrees.InternalPathLength.test);
     ("72", "(*) Construct the postorder sequence of the tree nodes.", MultiwayTrees.PostorderSequence.test);
     ("73", "(**) Lisp-like tree representation.", MultiwayTrees.LispNotation.test);
+    ("90", "(**) Eight queens problem", Misc.EightQueens.test)
 ]
 
 /// Display info on obtaining help
